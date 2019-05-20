@@ -46,4 +46,10 @@ If Python is not added to the system path, the user will have to find the Python
 
 	user_python_installation_directory/python.exe U_SOM.py
 
-Once the program is running, follow the instructions in the command line.
+The user_python_installation_directory should usually look something like:
+
+	C:\Users\USERNAME\AppData\Local\Programs\Python\Python37
+	
+Where USERNAME is replaced by your personal computer username.
+
+Once the program is running, follow the program instructions in the command line.
