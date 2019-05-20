@@ -33,6 +33,7 @@ To install these packages, make sure you are in the correct directory in command
 
 	pip install PyOpenGL-3.1.3b2-cp37-cp37m-win_amd64.whl (for 64-bit Python)
 OR
+
 	pip install PyOpenGL-3.1.3b2-cp37-cp37m-win32.whl (for 32-bit Python)
 
 Once installed, navigate back to the main project folder in the command line.
