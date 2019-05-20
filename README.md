@@ -28,7 +28,7 @@ If Python has been added to the system path, run the program by:
 
 	python U_SOM.py
 
-If Python is not added to the system path, the user will have to find the Python installation directory and then run
+If Python is not added to the system path, the user will have to find the Python installation directory and then run:
 
 	user_python_installation_directory/python.exe U_SOM.py
 
