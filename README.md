@@ -1,1 +1,1 @@
-# 3D-UMatrix-Visualisation-
+# Visualising the operation of SOMs
