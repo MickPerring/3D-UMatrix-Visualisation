@@ -20,9 +20,22 @@ This program creates a 3D U-Matrix Visualisation in PyOpenGL of the training pro
 
 Download all the files in this repository and place into a single project folder.
 
-To run these programs, the user must first ensure that Python 3.7 and OpenGL are installed on the Windows system, as well as the GLUT/FreeGLUT library.
+To run these programs, the user must first ensure that Python 3.7 is installed (and pip, which should come with Python 3.7) 
 
-Once installed, navigate to this project folder in the command line.
+With Python 3.7 installed, open a command window and type the following commands to install the Numpy and PIL libraries:
+	
+	pip install Numpy
+	pip install Pillow
+
+The PyOpenGL and GLUT libraries are also required. The standard distribution of PyOpenGL comes with GLUT, but it is broken.
+To install the correct version, navigate to the Installation folder (in the project files) in the command line. Inside are two PyOpenGL packaged distributions, one for 32-bit Python and one for 64-bit Python. _NOTE: A 64-bit Windows version does not mean that you have 64-bit Python_.
+To install these packages, make sure you are in the correct directory in command line and type:
+
+	pip install PyOpenGL-3.1.3b2-cp37-cp37m-win_amd64.whl (for 64-bit Python)
+OR
+	pip install PyOpenGL-3.1.3b2-cp37-cp37m-win32.whl (for 32-bit Python)
+
+Once installed, navigate back to the main project folder in the command line.
 
 If Python has been added to the system path, run the program by:
 
@@ -32,4 +45,4 @@ If Python is not added to the system path, the user will have to find the Python
 
 	user_python_installation_directory/python.exe U_SOM.py
 
-Once program is running, follow the instructions in the command line.
+Once the program is running, follow the instructions in the command line.
