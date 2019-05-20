@@ -1,0 +1,1 @@
+Epoch:   2/20  |  Accuracy: 95.68%  |  Error:  2.67%
