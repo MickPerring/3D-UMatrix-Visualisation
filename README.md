@@ -32,4 +32,4 @@ If Python is not added to the system path, the user will have to find the Python
 
 	user_python_installation_directory/python.exe U_SOM.py
 
-Once program is running, follow the instructions in the command line
+Once program is running, follow the instructions in the command line.
